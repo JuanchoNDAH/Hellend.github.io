@@ -1,0 +1,41 @@
+body {
+	background: linear-gradient(to right, red, purple, black);
+}
+h1 {
+	position: relative;
+	display: flex;
+	place-content: center;
+	place-items: center;
+	color: white;
+	background: linear-gradient(to right, red, purple, black, purple, red);
+}
+.form{position: absolute;
+	background-color: white;
+	height: 80%;
+	width: 50%;
+	top: 50px;
+	left: 25%;
+	border-radius: 10px;
+	border: double 10px darkred;
+}
+.send {
+	position: relative;
+	left: 30%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 250px;
+	margin-top: 70%;
+	background-color: blue;
+	outline: none;
+	color: white;
+	border-radius: 10px;
+	border: none;
+
+}
+.fecha{position: relative;
+	margin-top: 10%;
+}
+.back{position: relative;
+	top: 50px;
+	left: 40%;
+}

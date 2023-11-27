@@ -1,0 +1,101 @@
+body{
+	background: linear-gradient(to right, red, purple, black);
+}
+.Form{
+	background-color: white;
+	border-radius: 10px;
+	left: 25%;
+	width: 50%;
+	border: double 10px darkred;
+	top: 100px;
+	padding-bottom: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.Logo{
+	position: absolute;
+	width: 15%;
+	padding-right: 0%;
+	border-radius: 50%;
+	top: 1%;
+	left: 0%;
+	border: double 10px darkred;
+}
+
+H1{
+ position: absolute;
+ background: linear-gradient(to right, red, purple, black, purple, red);
+color: white;
+display: flex;
+place-content: center;
+place-items: center;
+width: 100%;
+padding-top: 25px;
+padding-bottom: 25px;
+font-style: oblique;
+font-size: 200%;
+top: 0%;
+}
+
+
+.User{
+	position: absolute;
+	top: 35%;
+	outline: none;
+	left: 25%;
+	padding-right: 100px;
+	border: none;
+	border-bottom: solid 1px gray;
+	transition-property: color;
+	transition-duration: 1s;
+}
+.User:hover{
+	background-color: #FFC3F3;
+}
+.pass{
+	position: absolute;
+	top: 45%;
+	outline: none;
+	left: 25%;
+	padding-right: 100px;
+	border: none;
+	border-bottom: solid 1px gray;
+	transition-property: color;
+	transition-duration: 1s;
+}
+.pass:hover{
+	background-color: #FFC3F3;
+}
+.Log{
+	position: absolute;
+	left: 30%;
+	top: 60%;
+	background-color: red;
+	width: 35%;
+	border: none;
+	outline: none;
+	border-radius: 10%;
+    color: white;
+}
+.SignIn{position: absolute;
+	top: 70%;
+	right: -2%;
+	width: 110%;
+	border-bottom: solid 1px black;
+}
+.Href{position: absolute;
+	top: 52%;
+	left: 40%;
+}
+.Sign{
+	position: absolute;
+	left: 30%;
+	top: 85%;
+	background-color: red;
+	width: 35%;
+	border: none;
+	outline: none;
+	border-radius: 10%;
+    color: white;
+}
